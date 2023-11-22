@@ -1,0 +1,79 @@
+.list{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent; /* Fondo semi-transparente */
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.list a{
+    color: #ffffff;
+    margin: 0px 15px;
+    text-decoration: none;
+}
+
+.holas1{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/sinTitulo.jpg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    
+}
+
+.holas1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #ffffff;
+    font-size: 80px;
+}
+
+.holas2{
+    background-color: black;
+}
+
+.holas2 div{
+    color: white;
+}
+
+.sobreNosotros{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 5%;
+
+}
+
+.politicasEticas{
+
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 1%;
+    margin-bottom: 20px;
+    width: 14%;
+    margin-left: 70%;
+    text-align: center;
+
+
+}
+
+.sucursales{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 1%;
+    width: 40%;
+    margin-left: 5%;
+
+    
+
+}
